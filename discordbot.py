@@ -9,15 +9,15 @@ path = ''
 
 # webhookを読み込む
 with open(path + 'webhook', encoding='utf-8') as file:
-    webhook = file.read()
+    webhook = file.read().strip('\n')
 
 # メッセージIDを読み込む
 with open(path + 'messageid', encoding='utf-8') as file:
-    messageid = str(file.read())
+    messageid = str(file.read()).strip('\n')
 
 # configを読み込む
 with open(path + 'config', encoding='utf-8') as file:
-    config = file.read()
+    config = file.read().strip('\n')
 
 Name = []
 Port = []
