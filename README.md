@@ -1,5 +1,22 @@
 # MCStatusCheckBot
-マインクラフトサーバのステータスチェックをするDiscordBot
+サーバのポートを監視するDiscordBot
+
+■ファイル一覧
+・config
+・discordbot.py
+・webhook
+・messageid
+・README.md
+
+■動作環境
+・Python3
+・Pythonパッケージ
+　＊json
+　＊datetime
+　＊requests
+　＊socket
+・centos7/Raspbian(RaspberryPi4 RAM8GB)/Macbook Pro 2020
+※windowsでも動かせますがサポート範囲外です。
 
 ■ユーザが変更する箇所
 ・config
